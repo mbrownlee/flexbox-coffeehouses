@@ -1,4 +1,6 @@
 header {
+    font-size: large;
+    color: darkslategrey;
     text-align: center;
 }
 
@@ -7,11 +9,15 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    background-color: aqua;
 }
 
 .shop {
+    background-color: yellow;
     flex: 0 0 30%;
     padding: .8em;
     align-self: stretch;
-
+    text-decoration: underline;
+    border: 1px dotted purple;
 }
+
